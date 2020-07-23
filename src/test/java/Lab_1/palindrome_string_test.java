@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public class palindrome_string_test {
     palindrome_string str;
-    @BeforeClass
+    @BeforeAll
     public void initialize(){
         str=new palindrome_string();
     }

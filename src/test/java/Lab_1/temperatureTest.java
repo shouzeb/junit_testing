@@ -8,9 +8,9 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public class temperatureTest {
-    temperature temp;
-    @BeforeClass
-    public void initialize(){
+    static temperature temp;
+    @BeforeAll
+    public static void initialize(){
         temp=new temperature();
     }
     @Test

@@ -10,7 +10,7 @@ import org.junit.jupiter.api.Test;
 public class even_odd_test {
 
     even_odd even_odd_;
-    @BeforeClass
+    @BeforeAll
     public void initialize(){
         even_odd_=new even_odd();
     }

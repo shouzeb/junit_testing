@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public class primeNumberTest {
     prime_number pm;
-    @BeforeClass
+    @BeforeAll
     public void initialize(){
 
         pm=new prime_number();

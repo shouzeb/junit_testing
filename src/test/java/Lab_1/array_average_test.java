@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public class array_average_test {
     array_average array_average_;
-    @BeforeClass
+    @BeforeAll
     public void initialize(){
         array_average_=new array_average();
 
