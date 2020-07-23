@@ -10,8 +10,8 @@ public class array_average {
             total = total + arr[i];
         }
         double average = total / arr.length;
-        System.out.format("The average is: %.3f", average);
-        return round(average,2);
+
+        return (average);
     }
 
 }
