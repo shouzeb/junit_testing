@@ -1,3 +1,5 @@
+package Lab_1;
+
 public class even_odd {
 
     public boolean isEven(int i){

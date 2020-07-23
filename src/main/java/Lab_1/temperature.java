@@ -1,3 +1,5 @@
+package Lab_1;
+
 public class temperature {
     public double celsiusToFahrenheit(double celsius){
         double fahrenheit;

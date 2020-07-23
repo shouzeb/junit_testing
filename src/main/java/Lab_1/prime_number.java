@@ -1,3 +1,4 @@
+package Lab_1;
 
 public class prime_number {
 

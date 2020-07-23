@@ -1,4 +1,7 @@
+package Lab_1;
+
 public class palindrome_string {
+
     public boolean checkPalindrome(String original)
     {
         boolean flag=false;

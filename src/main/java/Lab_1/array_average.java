@@ -1,3 +1,5 @@
+package Lab_1;
+
 import static jdk.nashorn.internal.objects.NativeMath.round;
 
 public class array_average {
@@ -17,4 +19,5 @@ if(arr.length>0){
 else {
     return average;
 }
-}}
+}
+}
