@@ -14,9 +14,41 @@ public class primeNumberTest {
         int fn=1;
         boolean result;
         result=pm.checkPrime(fn);
-        boolean expected=true;
+        boolean expected=false;
         Assertions.assertEquals(expected,result);
 
+    }
+    @Test
+    public void isPrime(){
+        int fn=3;
+        boolean result;
+        result=pm.checkPrime(fn);
+        boolean expected=true;
+        Assertions.assertEquals(expected,result);
+    }
+    @Test
+    public void negativeNotPrime(){
+        int fn=-3;
+        boolean result;
+        result=pm.checkPrime(fn);
+        boolean expected=false;
+        Assertions.assertEquals(expected,result);
+    }
+    @Test
+    public void isNotPrime(){
+        int fn=4;
+        boolean result;
+        result=pm.checkPrime(fn);
+        boolean expected=false;
+        Assertions.assertEquals(expected,result);
+    }
+    @Test
+    public void isZeroPrime(){
+        int fn=0;
+        boolean result;
+        result=pm.checkPrime(fn);
+        boolean expected=false;
+        Assertions.assertEquals(expected,result);
     }
 
 }
