@@ -5,12 +5,12 @@ import org.junit.BeforeClass;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public class primeNumberTest {
-    prime_number pm;
-    @BeforeAll
-    public void initialize(){
+    static prime_number pm;
+    @BeforeClass
+    public static void initialize(){
 
         pm=new prime_number();
 

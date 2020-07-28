@@ -5,11 +5,11 @@ import org.junit.BeforeClass;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public class temperatureTest {
     static temperature temp;
-    @BeforeAll
+    @BeforeClass
     public static void initialize(){
         temp=new temperature();
     }

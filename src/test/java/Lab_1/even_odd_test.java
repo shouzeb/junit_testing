@@ -5,13 +5,13 @@ import org.junit.BeforeClass;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public class even_odd_test {
 
-    even_odd even_odd_;
-    @BeforeAll
-    public void initialize(){
+    static even_odd even_odd_;
+    @BeforeClass
+    public static void initialize(){
         even_odd_=new even_odd();
     }
     @Test

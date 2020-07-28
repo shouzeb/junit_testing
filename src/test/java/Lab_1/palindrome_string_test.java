@@ -5,12 +5,12 @@ import org.junit.BeforeClass;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public class palindrome_string_test {
-    palindrome_string str;
-    @BeforeAll
-    public void initialize(){
+    static palindrome_string str;
+    @BeforeClass
+    public static void initialize(){
         str=new palindrome_string();
     }
     @Test
